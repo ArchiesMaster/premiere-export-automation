@@ -18,7 +18,9 @@ I developed this tool for a professional video production workflow to reduce rep
 
 For internal jobs, timeline names contain an underscore followed by an F and digits. Any underscore suffix after the key number is removed from delivery filenames.
 
-| Timeline             | HiRes                 | MXF             | LowRes                       |
+For example:
+
+| Timeline name        | HiRes                 | MXF             | LowRes                       |
 | -------------------- | --------------------- | --------------- | ---------------------------- |
 | Campaign_F1234567_v2 | Campaign_F1234567.mp4 | F1234567.mxf    | Campaign_F1234567_LowRes.mp4 |
 | CLIENT12345          | CLIENT12345.mp4       | CLIENT12345.mxf | CLIENT12345_LowRes.mp4       |
